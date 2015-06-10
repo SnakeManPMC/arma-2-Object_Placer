@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent) :
 	ui->setupUi(this);
 
 	QImage mappic;
-	mappic.load("d:/coding/test_files/satellite_mask_512.png");
+	mappic.load("d://test_files//satellite_mask_512.png");
 
 	view = new QGraphicsView;
 	setCentralWidget(view);
